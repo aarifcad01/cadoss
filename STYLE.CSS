@@ -1,0 +1,54 @@
+img {
+	width: 100px;
+	height: 100x;
+	
+} 
+
+.mheading{
+	display: flex;
+	gap: 30px;
+	place-items: center;
+    place-items: center;
+	background-color: powderblue;
+}
+
+
+.homeheadingd{
+	text-align: center;
+}
+
+P{
+	text-align: center;
+	font-size: 30PX;
+}
+
+.search-container{
+	float: right;
+}
+
+ul{
+	display: block;
+	list-style-type: none;
+	gap: 20px;
+	background-color: tomato;
+	padding: 30px 20px;
+}
+li{
+	float: left;
+	border-right: 1px solid white;
+}
+li a{
+	padding: 20px 20px;
+	color: white;
+	text-decoration: none;
+}
+.lastmenuchild{
+	float: right;
+}
+
+.img1 img{
+	width: 100%;
+}
+.{
+	text-align: left;	
+}
