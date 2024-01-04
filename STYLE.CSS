@@ -1,20 +1,17 @@
 img {
-	width: 100px;
-	height: 100x;
-	
+	width: 200px;
+	height: 200px;
+	padding:0%;
+		
 } 
 
-.mheading{
-	display: flex;
-	gap: 30px;
-	place-items: center;
-    place-items: center;
+.myheading{
 	background-color: powderblue;
 }
 
-
-.homeheadingd{
+.Homeheadingd{
 	text-align: center;
+	
 }
 
 P{
