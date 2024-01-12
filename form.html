@@ -6,24 +6,62 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <label for="first name">first name</label><br>
-        <input type="text" id="fname" name="fname" value="aarif"><BR>
-        <label for="last name">last name</label><br>
-        <input type="text" id="lname" name="lname" value="sultan"><BR>
-        <label for="phone number">phone number</label><br>
-        <input type="text" id="phone number" name="phone number" value="9025171297"><br>
-        <input type="submit" name="submit">
-        
-    </form>
+<p>Registeration form</p>
 
-    <table border=3px>
-        <tr>
-            <td id="fnname"></td><br>
-            <td id="lnname"></td><br>
-            <td id="pphone number"></td><br>
-        </tr>
-    </table>
-    <script src="JS/script.js"></script> 
-</body>
+        <label>Firstname</label><br>
+        <input type="text" id="fname" value=""><BR>
+
+        <label>Last name</label><br>
+        <input type="text" id="txlastname" name="lname" value="" placeholder=""><BR>
+
+        <label>Phone number</label><br>
+        <input type="text" id="txphonenumber" name="phone number" value="" placeholder=""><br>
+
+        <label for="Email">Email</label><br>
+         <input type="text" id="txemail" name="Email" value="" placeholder=""><br>
+
+        <input type="Submit" value="Register" onclick="Registrationform()">
+        
+     <table border="1px">
+    <tr>
+        <th>REGISTRATION</th>
+    </tr>
+    <tr>
+        <td>FirstName</td>
+    <td id="FirstName"></td>
+</tr>
+
+    <tr>
+        <td>LastName</td>
+        <td id="LastName"></td>
+    </tr>
+    <tr>
+        <td>PhoneNumber</td>
+        <td id="PhoneNumber"></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td id="email"></td>
+    </tr>
+     </table>
+
+    
+    <script>
+        function Registrationform(){
+            var Firstname = document.getElementById("fname").value;
+            document.getElementById("FirstName").innerHTML = Firstname;
+
+            var lastname = document.getElementById("txlastname").value;
+            document.getElementById("LastName").innerHTML = lastname;
+
+            var phonenumber = document.getElementById("txphonenumber").value;
+            document.getElementById("PhoneNumber").innerHTML = phonenumber;
+
+            var firstname = document.getElementById("txemail").value;
+            document.getElementById("email").innerHTML = firstname;
+        }
+    </script>
+
+
+</body>;
 </html>
