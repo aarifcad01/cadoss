@@ -6,6 +6,11 @@
 	<title>MERION BERRY</title>
 	<link rel="stylesheet" type="text/css" href="STYLE.CSS">
 	<link rel="icon" type="image/icon" href="https://ci4.googleusercontent.com/proxy/q4zeQAV9laznKnRbT9TWsKjofPPQd58G1j23NfFaOQioOW936C-7YDuimCgE_Q6YG2UZwCcGYdsr6uEki4sBQ5vK5QElpe2pBelsijc33BXjfcuH0GfHBTYXFxQWCE97ERddg7r15t_3nIqzm6bF=s0-d-e1-ft#https://www.shutterstock.com/image-vector/eye-glasses-optic-logo-design-260nw-1702620667.jpg">
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
 </head>
 <body>
 
@@ -27,7 +32,7 @@
 			</form>
 
 </div></form></p>
-</div>
+
 
 <class="toptitle">
 <ul>
@@ -36,3 +41,52 @@
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">MENS</a></li>
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">WOMENS</a></li>
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">SUN GLASS</a></li></ul>
+
+<div class="image-container">
+	<div class="swiper">
+		
+		<div class="swiper-wrapper">
+	
+		  <div class="swiper-slide"><img src="IMAGES/1.jpg" alt=""></div>
+		  <div class="swiper-slide"><img src="IMAGES/th.jpg" alt=""></div>
+		  <div class="swiper-slide"><img src="IMAGES/3.jpg" alt=""></div>
+		  ...
+		</div>
+		
+		<div class="swiper-pagination"></div>
+	  
+	
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	  
+
+		<div class="swiper-scrollbar"></div>
+	  </div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+	</script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+	</script>
