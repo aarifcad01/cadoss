@@ -3,34 +3,33 @@ img {
 	height: 200px;
 			
 } 
+.image05 img{
+	width: 1340px;
+	height: 300px;
+}
 
 .myheading{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	width: 200%;
 	background-color: powderblue;
 }
 
-.Homeheadingd{
-	text-align: center;
-	
-}
-
-P{
-	text-align: center;
-	font-size: 30PX;
+.Homeheading{
+	text-align: center;	
 }
 
 .search-container{
 	float: right;
 }
 
+
+P{
+	text-align: center;
+	font-size: 30PX;
+}
 ul{
 	display: block;
 	list-style-type: none;
 	gap: 20px;
-	background-color: tomato;
+	background-color: rgb(31, 24, 24);
 	padding: 30px 20px;
 }
 li{
@@ -41,6 +40,13 @@ li a{
 	padding: 20px 20px;
 	color: white;
 	text-decoration: none;
+    border-radius:10px; 
+}
+
+li a:hover{
+background-color: rgba(245, 240, 240, 0.5);
+color: black;
+
 }
 .lastmenuchild{
 	float: right;
@@ -52,3 +58,26 @@ li a{
 .{
 	text-align: left;	
 }
+
+.image-container{
+	width: 100%;
+}
+.swiper {
+	width: 600px;
+	height: 600px;
+  }
+
+  .swiper img{
+	width: 600px;
+	height: 600px;
+  }
+
+
+
+  .swiper .swiper-button-prev, 
+  .swiper .swiper-button-next{
+	color:aquamarine
+  }
+
+
+  

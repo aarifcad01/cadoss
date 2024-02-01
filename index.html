@@ -6,6 +6,11 @@
 	<title>MERION BERRY</title>
 	<link rel="stylesheet" type="text/css" href="STYLE.CSS">
 	<link rel="icon" type="image/icon" href="https://ci4.googleusercontent.com/proxy/q4zeQAV9laznKnRbT9TWsKjofPPQd58G1j23NfFaOQioOW936C-7YDuimCgE_Q6YG2UZwCcGYdsr6uEki4sBQ5vK5QElpe2pBelsijc33BXjfcuH0GfHBTYXFxQWCE97ERddg7r15t_3nIqzm6bF=s0-d-e1-ft#https://www.shutterstock.com/image-vector/eye-glasses-optic-logo-design-260nw-1702620667.jpg">
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
 </head>
 <body>
 
@@ -17,17 +22,20 @@
 
 
 <div class="HomeHeading">
-	<p><b>Glasses, eyeglasses or spectacles or vision eyewears.</b><br>
-
-		<form target="_blank">
-		<div class="m_search-container">
-			<form action="http:///action_page.php" target="_blank">
-				<input type="text" name="search">
-				<button type="submit">submit</button>
-			</form>
-
-</div></form></p>
+	<b>Glasses, eyeglasses or spectacles or vision eyewears.</b><br>
 </div>
+
+
+
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search">search</i></button>
+    </form>
+  </div>
+
+</form></p>
+
 
 <class="toptitle">
 <ul>
@@ -36,3 +44,57 @@
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">MENS</a></li>
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">WOMENS</a></li>
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">SUN GLASS</a></li></ul>
+
+	<div class="image05">
+		<img src="IMAGES/img05.jpg" alt="">
+
+</div>
+	
+<div class="image-container">
+	<div class="swiper">
+		<div class="swiper-wrapper">
+	
+		  <div class="swiper-slide"><img src="IMAGES/1.jpg" alt=""></div>
+		  <div class="swiper-slide"><img src="IMAGES/th.jpg" alt=""></div>
+		  <div class="swiper-slide"><img src="IMAGES/3.jpg" alt=""></div>
+		  ...
+		</div>
+		
+		<div class="swiper-pagination"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-scrollbar"></div>
+	  </div>
+	</div>
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+	</script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+
+  direction: 'horizontal',
+  loop: true,
+autoplay:{delay :1000,
+pauseOnMouseEnter:true},
+
+
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+	</script>
