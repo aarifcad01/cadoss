@@ -22,16 +22,19 @@
 
 
 <div class="HomeHeading">
-	<p><b>Glasses, eyeglasses or spectacles or vision eyewears.</b><br>
+	<b>Glasses, eyeglasses or spectacles or vision eyewears.</b><br>
+</div>
 
-		<form target="_blank">
-		<div class="m_search-container">
-			<form action="http:///action_page.php" target="_blank">
-				<input type="text" name="search">
-				<button type="submit">submit</button>
-			</form>
 
-</div></form></p>
+
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search">search</i></button>
+    </form>
+  </div>
+
+</form></p>
 
 
 <class="toptitle">
@@ -42,9 +45,13 @@
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">WOMENS</a></li>
     <li><a href="https://www.google.com/url?q=http://home.html&amp;source=gmail-html&amp;ust=1702724846630000&amp;usg=AOvVaw2bZX9P_9gUKilxfu5mkePv" target="_blank" rel="noreferrer">SUN GLASS</a></li></ul>
 
+	<div class="image05">
+		<img src="IMAGES/img05.jpg" alt="">
+
+</div>
+	
 <div class="image-container">
 	<div class="swiper">
-		
 		<div class="swiper-wrapper">
 	
 		  <div class="swiper-slide"><img src="IMAGES/1.jpg" alt=""></div>
@@ -54,12 +61,8 @@
 		</div>
 		
 		<div class="swiper-pagination"></div>
-	  
-	
 		<div class="swiper-button-prev"></div>
 		<div class="swiper-button-next"></div>
-	  
-
 		<div class="swiper-scrollbar"></div>
 	  </div>
 	</div>
@@ -69,22 +72,23 @@
 	</script>
 	<script>
 		const swiper = new Swiper('.swiper', {
-  // Optional parameters
+
   direction: 'horizontal',
   loop: true,
 
-  // If we need pagination
+
+
   pagination: {
     el: '.swiper-pagination',
   },
 
-  // Navigation arrows
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
 
-  // And if we need scrollbar
+
   scrollbar: {
     el: '.swiper-scrollbar',
   },

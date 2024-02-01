@@ -4,30 +4,33 @@ img {
 	padding:0%;
 		
 } 
+.image05 img{
+	width: 1340px;
+	height: 300px;
+}
 
 .myheading{
-	background-color: powderblue;
+	background-color: rgb(204, 237, 241);
 }
 
-.Homeheadingd{
-	text-align: center;
-	
-}
-
-P{
-	text-align: center;
-	font-size: 30PX;
+.Homeheading{
+	text-align: center;	
 }
 
 .search-container{
 	float: right;
 }
 
+
+P{
+	text-align: center;
+	font-size: 30PX;
+}
 ul{
 	display: block;
 	list-style-type: none;
 	gap: 20px;
-	background-color: tomato;
+	background-color: rgb(31, 24, 24);
 	padding: 30px 20px;
 }
 li{
@@ -38,6 +41,13 @@ li a{
 	padding: 20px 20px;
 	color: white;
 	text-decoration: none;
+    border-radius:10px; 
+}
+
+li a:hover{
+background-color: rgba(245, 240, 240, 0.5);
+color: black;
+
 }
 .lastmenuchild{
 	float: right;
