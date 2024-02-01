@@ -72,3 +72,13 @@ color: black;
 	width: 600px;
 	height: 600px;
   }
+
+
+
+  .swiper .swiper-button-prev, 
+  .swiper .swiper-button-next{
+	color:aquamarine
+  }
+
+
+  
