@@ -1,11 +1,14 @@
 img {
 	width: 200px;
 	height: 200px;
-	padding:0%;
-		
+			
 } 
 
 .myheading{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 200%;
 	background-color: powderblue;
 }
 
