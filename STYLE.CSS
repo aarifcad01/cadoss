@@ -4,10 +4,6 @@ img {
 			
 } 
 
-.titled{
-	font-size: xx-large;
-}
-
 .myheading{
 	color:rgb(184, 209, 233);
 	background-color: rgb(115, 135, 138);
@@ -17,7 +13,7 @@ img {
 	font-size: xx-large;
 }
 
-  .topnav {
+.topnav {
 	float: right;
 	overflow: hidden;
 	background-color: #f2f7f8;
@@ -58,6 +54,7 @@ P{
 }
 
 */
+
 .topnav input[type=text] {
 	padding: 6px;
 	margin-top: 8px;
@@ -77,7 +74,8 @@ P{
 	cursor: pointer;
   }
   
-  .topnav .search-container button:hover {
+  .topnav .search-container
+   button:hover {
 	background: #ccc;
   }
   
@@ -85,7 +83,8 @@ P{
 	.topnav .search-container {
 	  float: none;
 	}
-	.topnav a, .topnav input[type=text], .topnav .search-container button {
+	.topnav a, .topnav input[type=text],
+	.topnav .search-container button {
 	  float: none;
 	  display: block;
 	  text-align: left;
@@ -98,6 +97,23 @@ P{
 	}
   }
 
+.navbar{
+   float: left;
+   background-color: #533d3d;
+   color: #d3c2c2;
+   text-align: center;
+   padding: 4px 4px;
+   width: 100%;
+   height: 20%;
+   font-size: 17px;
+   gap: 100%;
+}
+
+.floatright{
+	float: right;
+}
+
+/*
 ul{
 	float: left;
 	background-color: #533d3d;
@@ -106,31 +122,26 @@ ul{
     padding: 4px 4px;
     font-size: 17px;
 }
+*/
 
-.lastone .lastlist{
-	margin-right: 30px;
-	
-}
+
 li {
 	float: left;
-	border-right: 1px solid white;
 }
 
-
-
 li a{
-
-	padding: 20px 20px;
+	padding: 10px 20px;
 	color: white;
 	text-align: center;
 	display: block;
 	text-decoration: none;
-    border-radius:10px; 
+    border-radius: 10px; 
+	height: 30px;
 }
+
 li a:hover{
 background-color: rgba(245, 240, 240, 0.5);
 color: black;
-
 }
 
 .img1 img{
