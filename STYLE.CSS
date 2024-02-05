@@ -1,23 +1,33 @@
 img {
 	width: 200px;
 	height: 200px;
-			
+	padding: 20px 10px;			
 } 
 
 .myheading{
 	color:rgb(184, 209, 233);
 	background-color: rgb(115, 135, 138);
-}
 
+}
+.myheading img{
+	margin-inline: 10px;
+	justify-content: center;
+	align-items: center;
+	place-items: center;
+
+}
 .para{
 	font-size: xx-large;
+	height: 50px;
+
 }
 
 .topnav {
-	float: right;
+	float: center;
 	overflow: hidden;
 	background-color: #f2f7f8;
 	padding: 2%;
+
   }
   
   .topnav a {
@@ -102,15 +112,13 @@ P{
    background-color: #533d3d;
    color: #d3c2c2;
    text-align: center;
-   padding: 4px 4px;
    width: 100%;
-   height: 20%;
    font-size: 17px;
-   gap: 100%;
 }
 
 .floatright{
 	float: right;
+	width: 300px;
 }
 
 /*
@@ -127,6 +135,8 @@ ul{
 
 li {
 	float: left;
+	list-style: none;
+	
 }
 
 li a{
@@ -135,8 +145,8 @@ li a{
 	text-align: center;
 	display: block;
 	text-decoration: none;
-    border-radius: 10px; 
-	height: 30px;
+    border-radius: 50px; 
+	width: 100%;
 }
 
 li a:hover{
@@ -144,25 +154,23 @@ background-color: rgba(245, 240, 240, 0.5);
 color: black;
 }
 
-.img1 img{
-	width: 100%;
-}
+
 
 
 .image-container{
 	width: 100%;
 }
+
 .swiper {
 	width: 100%;
-	height: 400px;
+	height: 300px;
   }
 
   .swiper img{
 	width: 100%;
 	height: 300px;
+
   }
-
-
 
   .swiper .swiper-button-prev, 
   .swiper .swiper-button-next{
@@ -170,4 +178,85 @@ color: black;
   }
 
 
-  
+/*LOGIN PAGE*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+ }
+ 
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #8a8181;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #252929;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #373e41;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #e62020;
+  font-size: 12px;
+}
+.form .message a {
+  color: #1a251a;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media screen and {
+	max-width : 1000px;
+	li a {
+		font-size: 10px;
+	}
+	
+}
