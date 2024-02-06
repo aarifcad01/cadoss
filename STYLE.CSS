@@ -203,7 +203,7 @@ margin-bottom: 26px;
 .form {
   position: relative;
   z-index: 1;
-  background: #d7e083;
+  background: #c3c5b5;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -213,7 +213,7 @@ margin-bottom: 26px;
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #cee4ee;
+  background: #abddc4;
   width: 100%;
   border: 0;
   margin: 0 0 15px;
@@ -252,10 +252,15 @@ margin-bottom: 26px;
   max-width: 300px;
   margin: 0 auto;
 }
- .bgmi {
-  background-image: url(IMAGES/login\ background\ page\ .jpg) no-repeat;
-  background-attachment: fixed;  
+
+ .backgroundimage {
+  background-image: url(IMAGES/login\ background\ page\ .jpg);
+  min-height: 641px;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  
 }
 
 @media screen and { 
