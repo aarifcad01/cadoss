@@ -269,5 +269,41 @@ margin-bottom: 26px;
 	li a {
 		font-size: 10px;
 	}
-	
+  }
+
+
+.specsboxcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+}
+.specscard{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  color: rgb(218, 213, 213);
+  border-radius: 20px;
+  overflow: hidden;
+  border-left: 1px solid rgba(0,0,0,0.2) ;
+  border-right: 1px solid rgba(0,0,0,0.2) ;
+  border-top: 1px solid rgba(0,0,0,0.2) ;
+  border-bottom: 1px solid rgba(0,0,0,0.2) ;
+}
+.specscard img{
+  width: 180px;
+  height: 200px;
+}
+.specsboxcontainer h1{
+ justify-content: center;
+ text-align: center;
+}
+.specscard:hover{
+  cursor: pointer;
+}
+.specscard:hover img{
+  transform: rotateX('angle ')
+}
+
+P{
+  font-size: 17px;
 }
