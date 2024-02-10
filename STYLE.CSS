@@ -314,22 +314,34 @@ margin-bottom: 26px;
 
 P{
   font-size: 17px;
+
 }
 .aboutusimage{
-background-image: url(IMAGES/aboutbgimg.jpg) ;
- margin-top: 100px;
- padding: 0px 10px;
+ background-image: url(IMAGES/aboutbgimg.jpg) ;
+ background-size: 100% 100%;
+ height: 500px;
+ padding: 10px 10px;
  text-align: center;
  font-weight: bold;
- color: #070707;
  
  font-family: 'Steelfish Rg', 'helvetica neue', 
  helvetica, arial, sans-serif;
- 
- 
-
 }
-.aboutusimage img {
-  width: 99%;
-  height: 500px;
+
+
+
+.aboutusimage p{
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  
+}
+
+.aboutusimage a {
+  color: #ccc;
+  float: left;
+  padding: 10px 100px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif ;
 }
