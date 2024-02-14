@@ -346,19 +346,27 @@ P{
   font-family: 'Times New Roman', Times, serif ;
 }
 
-.ourservicestags{
-  align-items: center;
-  text-align: justify;
-  
-
-}
 
 
 .mensection li{
-    border-radius: 20px 20px;
+
+width: 200px;
+  padding-right : 0px 15px; 
+    margin-top: 50px;
+    background-color: #bb4343e8;
 
 }
 
-.mensection li a{ background-image: url(IMAGES/mens01.jpg) no-repeat;
-  border-radius: px;
+.mensection img{ 
+  border-radius: 90%;
+}
+.mensection{
+  
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.mensection :hover{
+  color: #181616;
+
 }
