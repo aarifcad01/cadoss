@@ -345,3 +345,20 @@ P{
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif ;
 }
+
+.ourservicestags{
+  align-items: center;
+  text-align: justify;
+  
+
+}
+
+
+.mensection li{
+    border-radius: 20px 20px;
+
+}
+
+.mensection li a{ background-image: url(IMAGES/mens01.jpg) no-repeat;
+  border-radius: px;
+}
