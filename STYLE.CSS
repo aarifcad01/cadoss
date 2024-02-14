@@ -272,8 +272,8 @@ margin-bottom: 26px;
 .aboutdiv{
   font-size: 15px;
 }
-@media screen and{ 
-	max-width : 1000px; 
+@media screen and(max-width : 1000px){ 
+	 
 	li a {
 		font-size: 10px;
 	}
