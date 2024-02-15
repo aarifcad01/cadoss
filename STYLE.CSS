@@ -317,13 +317,12 @@ P{
 
 }
 .aboutusimage{
+  float: right;
  background-image: url(IMAGES/aboutbgimg.jpg) ;
  background-size: 100% 100%;
- height: 500px;
+ height: 800px;
  padding: 10px 10px;
- text-align: center;
  font-weight: bold;
- 
  font-family: 'Steelfish Rg', 'helvetica neue', 
  helvetica, arial, sans-serif;
 }
@@ -339,19 +338,21 @@ P{
 
 .aboutusimage a {
   color: #ccc;
-  float: left;
+  float: right;
   padding: 10px 100px;
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif ;
 }
 
-
-
+.aboutusimage .ourservicetags{
+  float: right;
+  margin-top: right;
+}
 .mensection li{
 
-width: 200px;
-  padding-right : 0px 15px; 
+    width: 200px;
+    padding-right : 20% 20px; 
     margin-top: 50px;
     background-color: #bb4343e8;
 
@@ -369,4 +370,23 @@ width: 200px;
 .mensection :hover{
   color: #181616;
 
+}
+
+.headimg img{
+  justify-content: center ;
+  border: 2px ;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+
+
+}
+.headimg p{
+  margin: right;
+  color: #2cc478;
+}
+.ourservicestags ul{
+  float: right;
+  margin-bottom: 20%;
+  padding: 10px 10px;
 }
