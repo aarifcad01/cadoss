@@ -373,8 +373,11 @@ P{
 }
 
 .headimg img{
+  -webkit-filter: blur(5%);
+  filter: grayscale(5%);
   justify-content: center ;
   border: 2px ;
+  margin-right: 50p[x];
   height: 200px;
   width: 200px;
   margin: auto;
@@ -382,11 +385,16 @@ P{
 
 }
 .headimg p{
-  margin: right;
-  color: #2cc478;
+  color: whitesmoke;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
 }
-.ourservicestags ul{
+
+
+.ourservicestags {
   float: right;
   margin-bottom: 20%;
   padding: 10px 10px;
+  bottom: 100px 100px;
 }
