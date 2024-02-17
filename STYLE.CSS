@@ -207,7 +207,15 @@ margin-top: 4px;
   margin-top: -31px;
 margin-bottom: 26px;
 }
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+
+}
+
 .form {
+ 
   position: relative;
   z-index: 1;
   background: #c3c5b5;
@@ -232,17 +240,18 @@ margin-bottom: 26px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background-color: #252929;
+  background-color: #56d4d4;
   background-image: linear-gradient(45deg,#328f8a,#08ac4b);
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #373e41;
+  color: #c7e4f1;
   font-size: 14px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
 }
+
 .form .message {
   margin: 15px 0 0;
   color: #e62020;
@@ -254,6 +263,7 @@ margin-bottom: 26px;
 }
 
 .container {
+  padding: 16px;
   position: relative;
   z-index: 1;
   max-width: 300px;
@@ -262,12 +272,19 @@ margin-bottom: 26px;
 
  .backgroundimage {
   background-image: url(IMAGES/login\ background\ page\ .jpg);
-  min-height: 641px;
+  min-height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   
+}
+
+.cancl .cancelbtn {
+  width: auto;
+  padding: 5% 50px;
+  color: red;
+  background-color: #f54680;
 }
 .aboutdiv{
   font-size: 15px;
